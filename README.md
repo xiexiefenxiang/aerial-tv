@@ -22,6 +22,10 @@
 > [!IMPORTANT]
 > **本项目是 [pengchujin/aerial-tv]([https://github.com/pengchujin/aerial-tv]) 的分支**（fork）。
 
+> [!IMPORTANT]
+> **本项目是 [pengchujin/aerial-tv]([https://github.com/pengchujin/aerial-tv]) 的分支**（fork）。
+>
+> 我的目的：自用修改
 
 
 ![Aerial 首页](site/img/home.jpg)
