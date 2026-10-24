@@ -11,13 +11,15 @@ Made for the Xiaomi, TCL and other TVs sold in China. It starts at boot and surv
 
 [中文](README.md) · **English**
 
-<a href="https://aerial.qust.me/en/"><img alt="Website" src="https://img.shields.io/badge/Website-1f6feb?style=for-the-badge&logo=safari&logoColor=white"></a>
-<a href="https://github.com/pengchujin/aerial-tv/releases/latest"><img alt="Download APK" src="https://img.shields.io/badge/Download%20APK-34a853?style=for-the-badge&logo=android&logoColor=white"></a>
-<a href="#install"><img alt="Install" src="https://img.shields.io/badge/Install-d97757?style=for-the-badge&logo=gnubash&logoColor=white"></a>
+<a href="https://github.com/xiexiefenxiang/aerial-tv/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/xiexiefenxiang/aerial-tv?style=for-the-badge&label=stars&color=2997ff&logo=github"></a>
+<a href="https://github.com/xiexiefenxiang/aerial-tv/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/xiexiefenxiang/aerial-tv?style=for-the-badge&label=fork&color=8b5cf6&logo=git"></a>
+<a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-555555?style=for-the-badge"></a>
 
-<a href="https://github.com/pengchujin/aerial-tv/releases/latest"><img alt="Version" src="https://img.shields.io/github/v/release/pengchujin/aerial-tv?style=flat-square&label=version&color=2997ff"></a>
-<a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-555555?style=flat-square"></a>
 <img alt="Android TV 5.0+" src="https://img.shields.io/badge/Android%20TV-5.0%2B-3ddc84?style=flat-square&logo=android&logoColor=white">
+<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.x-7f52ff?style=flat-square&logo=kotlin&logoColor=white">
+<img alt="No ads" src="https://img.shields.io/badge/ads-0-brightgreen?style=flat-square">
+<a href="https://github.com/pengchujin/aerial-tv/releases/latest"><img alt="Upstream version" src="https://img.shields.io/github/v/release/pengchujin/aerial-tv?style=flat-square&label=upstream%20version&color=34a853"></a>
+<a href="https://github.com/pengchujin/aerial-tv"><img alt="Upstream stars" src="https://img.shields.io/github/stars/pengchujin/aerial-tv?style=flat-square&label=upstream&color=f59e0b&logo=github"></a>
 
 ![Aerial's home screen](site/img/home.jpg)
 
@@ -26,6 +28,18 @@ Made for the Xiaomi, TCL and other TVs sold in China. It starts at boot and surv
 | <img src="site/img/stock-xiaomi.jpg" alt="The stock home screen, covered in show recommendations and membership badges"> | <img src="site/img/home.jpg" alt="Aerial's home screen"> |
 
 </div>
+
+> [!IMPORTANT]
+> ### 📌 This repository is a fork
+>
+> Upstream: **[pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv)** (4k+ stars, actively maintained)
+>
+> This is my personal fork of the upstream project, kept for **reading the source, hacking on it and showcasing it**.
+> The features, screenshots, docs and install scripts all come from upstream — **they are not my work**.
+>
+> - Want to install it on a TV, open an issue or get the latest build: [go upstream](https://github.com/pengchujin/aerial-tv)
+> - Want to build and modify it yourself: you are in the right place, see [Development](#development)
+> - This repository has **no releases of its own**; every APK comes from the upstream release page
 
 ## Features
 
@@ -171,6 +185,28 @@ BUILD=1 KEEP_ADB=1 TV=<TV-IP> tools/install.sh
 ```
 
 See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for the code, [HANDOFF.md](docs/HANDOFF.md) for the current state and rules, and [docs/devices/](docs/devices/) for notes on each TV.
+
+## Relation to upstream
+
+| | |
+|---|---|
+| Upstream | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) |
+| This repo | [xiexiefenxiang/aerial-tv](https://github.com/xiexiefenxiang/aerial-tv) (fork) |
+| Purpose | Reading the source, secondary development, personal showcase |
+| Releases | None of our own; all APKs come from upstream |
+| Issues / PRs | Please file them **upstream**; this repo does not handle feature requests |
+
+**Staying in sync with upstream:**
+
+```bash
+git remote add upstream https://github.com/pengchujin/aerial-tv.git   # once
+git fetch upstream
+git merge upstream/main
+git push origin main
+```
+
+> [!NOTE]
+> As of 2026-10-24 the upstream branch is 5 commits ahead of this fork (version 1.47, Skyworth/Whaley device notes, the home lock-screen fix, and more). Run the commands above to catch up.
 
 ## License
 
