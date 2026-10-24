@@ -19,14 +19,9 @@
 <a href="LICENSE"><img alt="许可证 MIT" src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF%E8%AF%81-MIT-555555?style=flat-square"></a>
 <img alt="Android TV 5.0+" src="https://img.shields.io/badge/Android%20TV-5.0%2B-3ddc84?style=flat-square&logo=android&logoColor=white">
 
-> [!IMPORTANT]
-> **本项目是 [pengchujin/aerial-tv]([https://github.com/pengchujin/aerial-tv]) 的分支**（fork）。
 
 > [!IMPORTANT]
 > **本项目是 [pengchujin/aerial-tv]([https://github.com/pengchujin/aerial-tv]) 的分支**（fork）。
->
-> 我的目的：自用修改
-
 
 ![Aerial 首页](site/img/home.jpg)
 
