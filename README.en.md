@@ -206,7 +206,7 @@ git push origin main
 ```
 
 > [!NOTE]
-> As of 2026-10-24 the upstream branch is 5 commits ahead of this fork (version 1.47, Skyworth/Whaley device notes, the home lock-screen fix, and more). Run the commands above to catch up.
+> As of 2026-10-24 this fork is synced with upstream at `9688e96` (version 1.47, Skyworth/Whaley device notes, the home lock-screen fix, Control Center fixes, and more) with no local code changes. Run the commands above whenever upstream moves again.
 
 ## License
 
